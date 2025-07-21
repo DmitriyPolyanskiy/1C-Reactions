@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<Table name="ДС" id="1">
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>ДС</DataPath>
+			<RowPictureDataPath>ДС.DefaultPicture</RowPictureDataPath>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+			<ContextMenu name="ДСКонтекстноеМеню" id="2"/>
+			<AutoCommandBar name="ДСКоманднаяПанель" id="3"/>
+			<ExtendedTooltip name="ДСРасширеннаяПодсказка" id="4"/>
+			<SearchStringAddition name="ДССтрокаПоиска" id="5">
+				<AdditionSource>
+					<Item>ДС</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДССтрокаПоискаКонтекстноеМеню" id="6"/>
+				<ExtendedTooltip name="ДССтрокаПоискаРасширеннаяПодсказка" id="7"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ДССостояниеПросмотра" id="8">
+				<AdditionSource>
+					<Item>ДС</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДССостояниеПросмотраКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="ДССостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ДСУправлениеПоиском" id="11">
+				<AdditionSource>
+					<Item>ДС</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ДСУправлениеПоискомКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ДСУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="OnGetDataAtServer">ДСПриПолученииДанныхНаСервере</Event>
+			</Events>
+			<ChildItems>
+				<LabelField name="ДСРКЦ_Реакции" id="167">
+					<DataPath>ДС.РКЦ_Реакции</DataPath>
+					<ContextMenu name="ДСРКЦ_РеакцииКонтекстноеМеню" id="168"/>
+					<ExtendedTooltip name="ДСРКЦ_РеакцииРасширеннаяПодсказка" id="169"/>
+				</LabelField>
+				<LabelField name="ДСНаименование" id="14">
+					<DataPath>ДС.Description</DataPath>
+					<ContextMenu name="ДСНаименованиеКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="ДСНаименованиеРасширеннаяПодсказка" id="16"/>
+				</LabelField>
+				<LabelField name="ДСКод" id="17">
+					<DataPath>ДС.Code</DataPath>
+					<ContextMenu name="ДСКодКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="ДСКодРасширеннаяПодсказка" id="19"/>
+				</LabelField>
+				<LabelField name="ДСНаименованиеПолное" id="20">
+					<DataPath>ДС.НаименованиеПолное</DataPath>
+					<ContextMenu name="ДСНаименованиеПолноеКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ДСНаименованиеПолноеРасширеннаяПодсказка" id="22"/>
+				</LabelField>
+				<LabelField name="ДСБанковскийСчетПоУмолчанию" id="23">
+					<DataPath>ДС.БанковскийСчетПоУмолчанию</DataPath>
+					<ContextMenu name="ДСБанковскийСчетПоУмолчаниюКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ДСБанковскийСчетПоУмолчаниюРасширеннаяПодсказка" id="25"/>
+				</LabelField>
+				<LabelField name="ДСВалютаРасчетовПоУмолчанию" id="26">
+					<DataPath>ДС.ВалютаРасчетовПоУмолчанию</DataPath>
+					<ContextMenu name="ДСВалютаРасчетовПоУмолчаниюКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ДСВалютаРасчетовПоУмолчаниюРасширеннаяПодсказка" id="28"/>
+				</LabelField>
+				<CheckBoxField name="ДСВестиРасчетыПоДоговорам" id="29">
+					<DataPath>ДС.ВестиРасчетыПоДоговорам</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДСВестиРасчетыПоДоговорамКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ДСВестиРасчетыПоДоговорамРасширеннаяПодсказка" id="31"/>
+				</CheckBoxField>
+				<CheckBoxField name="ДСВестиРасчетыПоДокументам" id="32">
+					<DataPath>ДС.ВестиРасчетыПоДокументам</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДСВестиРасчетыПоДокументамКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ДСВестиРасчетыПоДокументамРасширеннаяПодсказка" id="34"/>
+				</CheckBoxField>
+				<CheckBoxField name="ДСВестиРасчетыПоЗаказам" id="35">
+					<DataPath>ДС.ВестиРасчетыПоЗаказам</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДСВестиРасчетыПоЗаказамКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ДСВестиРасчетыПоЗаказамРасширеннаяПодсказка" id="37"/>
+				</CheckBoxField>
+				<CheckBoxField name="ДСВестиУчетОплатыПоСчетам" id="38">
+					<DataPath>ДС.ВестиУчетОплатыПоСчетам</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДСВестиУчетОплатыПоСчетамКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ДСВестиУчетОплатыПоСчетамРасширеннаяПодсказка" id="40"/>
+				</CheckBoxField>
+				<LabelField name="ДСВидГосударственногоОргана" id="41">
+					<DataPath>ДС.ВидГосударственногоОргана</DataPath>
+					<ContextMenu name="ДСВидГосударственногоОрганаКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="ДСВидГосударственногоОрганаРасширеннаяПодсказка" id="43"/>
+				</LabelField>
+				<LabelField name="ДСВидКонтрагента" id="44">
+					<DataPath>ДС.ВидКонтрагента</DataPath>
+					<ContextMenu name="ДСВидКонтрагентаКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="ДСВидКонтрагентаРасширеннаяПодсказка" id="46"/>
+				</LabelField>
+				<LabelField name="ДССтранаРегистрации" id="47">
+					<DataPath>ДС.СтранаРегистрации</DataPath>
+					<ContextMenu name="ДССтранаРегистрацииКонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="ДССтранаРегистрацииРасширеннаяПодсказка" id="49"/>
+				</LabelField>
+				<LabelField name="ДСГруппаДоступа" id="50">
+					<DataPath>ДС.ГруппаДоступа</DataPath>
+					<ContextMenu name="ДСГруппаДоступаКонтекстноеМеню" id="51"/>
+					<ExtendedTooltip name="ДСГруппаДоступаРасширеннаяПодсказка" id="52"/>
+				</LabelField>
+				<LabelField name="ДСДатаРождения" id="53">
+					<DataPath>ДС.ДатаРождения</DataPath>
+					<ContextMenu name="ДСДатаРожденияКонтекстноеМеню" id="54"/>
+					<ExtendedTooltip name="ДСДатаРожденияРасширеннаяПодсказка" id="55"/>
+				</LabelField>
+				<LabelField name="ДСДатаСоздания" id="56">
+					<DataPath>ДС.ДатаСоздания</DataPath>
+					<ContextMenu name="ДСДатаСозданияКонтекстноеМеню" id="57"/>
+					<ExtendedTooltip name="ДСДатаСозданияРасширеннаяПодсказка" id="58"/>
+				</LabelField>
+				<LabelField name="ДСДокументУдостоверяющийЛичность" id="59">
+					<DataPath>ДС.ДокументУдостоверяющийЛичность</DataPath>
+					<ContextMenu name="ДСДокументУдостоверяющийЛичностьКонтекстноеМеню" id="60"/>
+					<ExtendedTooltip name="ДСДокументУдостоверяющийЛичностьРасширеннаяПодсказка" id="61"/>
+				</LabelField>
+				<LabelField name="ДСАдресЭПДляПоиска" id="62">
+					<DataPath>ДС.АдресЭПДляПоиска</DataPath>
+					<ContextMenu name="ДСАдресЭПДляПоискаКонтекстноеМеню" id="63"/>
+					<ExtendedTooltip name="ДСАдресЭПДляПоискаРасширеннаяПодсказка" id="64"/>
+				</LabelField>
+				<CheckBoxField name="ДСИННВведенКорректно" id="65">
+					<DataPath>ДС.ИННВведенКорректно</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДСИННВведенКорректноКонтекстноеМеню" id="66"/>
+					<ExtendedTooltip name="ДСИННВведенКорректноРасширеннаяПодсказка" id="67"/>
+				</CheckBoxField>
+				<LabelField name="ДСИсточникПривлеченияПокупателя" id="68">
+					<DataPath>ДС.ИсточникПривлеченияПокупателя</DataPath>
+					<ContextMenu name="ДСИсточникПривлеченияПокупателяКонтекстноеМеню" id="69"/>
+					<ExtendedTooltip name="ДСИсточникПривлеченияПокупателяРасширеннаяПодсказка" id="70"/>
+				</LabelField>
+				<LabelField name="ДСКодГосударственногоОргана" id="71">
+					<DataPath>ДС.КодГосударственногоОргана</DataPath>
+					<ContextMenu name="ДСКодГосударственногоОрганаКонтекстноеМеню" id="72"/>
+					<ExtendedTooltip name="ДСКодГосударственногоОрганаРасширеннаяПодсказка" id="73"/>
+				</LabelField>
+				<LabelField name="ДСГоловнойКонтрагент" id="74">
+					<DataPath>ДС.ГоловнойКонтрагент</DataPath>
+					<ContextMenu name="ДСГоловнойКонтрагентКонтекстноеМеню" id="75"/>
+					<ExtendedTooltip name="ДСГоловнойКонтрагентРасширеннаяПодсказка" id="76"/>
+				</LabelField>
+				<LabelField name="ДСКомментарий" id="77">
+					<DataPath>ДС.Комментарий</DataPath>
+					<ContextMenu name="ДСКомментарийКонтекстноеМеню" id="78"/>
+					<ExtendedTooltip name="ДСКомментарийРасширеннаяПодсказка" id="79"/>
+				</LabelField>
+				<LabelField name="ДСКонтактноеЛицо" id="80">
+					<DataPath>ДС.КонтактноеЛицо</DataPath>
+					<ContextMenu name="ДСКонтактноеЛицоКонтекстноеМеню" id="81"/>
+					<ExtendedTooltip name="ДСКонтактноеЛицоРасширеннаяПодсказка" id="82"/>
+				</LabelField>
+				<LabelField name="ДСКонтактноеЛицоПодписант" id="83">
+					<DataPath>ДС.КонтактноеЛицоПодписант</DataPath>
+					<ContextMenu name="ДСКонтактноеЛицоПодписантКонтекстноеМеню" id="84"/>
+					<ExtendedTooltip name="ДСКонтактноеЛицоПодписантРасширеннаяПодсказка" id="85"/>
+				</LabelField>
+				<LabelField name="ДСИНН" id="86">
+					<DataPath>ДС.ИНН</DataPath>
+					<ContextMenu name="ДСИННКонтекстноеМеню" id="87"/>
+					<ExtendedTooltip name="ДСИННРасширеннаяПодсказка" id="88"/>
+				</LabelField>
+				<CheckBoxField name="ДСКППВведенКорректно" id="89">
+					<DataPath>ДС.КППВведенКорректно</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДСКППВведенКорректноКонтекстноеМеню" id="90"/>
+					<ExtendedTooltip name="ДСКППВведенКорректноРасширеннаяПодсказка" id="91"/>
+				</CheckBoxField>
+				<LabelField name="ДСКПП" id="92">
+					<DataPath>ДС.КПП</DataPath>
+					<ContextMenu name="ДСКППКонтекстноеМеню" id="93"/>
+					<ExtendedTooltip name="ДСКППРасширеннаяПодсказка" id="94"/>
+				</LabelField>
+				<CheckBoxField name="ДСНедействителен" id="95">
+					<DataPath>ДС.Недействителен</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДСНедействителенКонтекстноеМеню" id="96"/>
+					<ExtendedTooltip name="ДСНедействителенРасширеннаяПодсказка" id="97"/>
+				</CheckBoxField>
+				<LabelField name="ДСНомерТелефонаДляПоиска" id="98">
+					<DataPath>ДС.НомерТелефонаДляПоиска</DataPath>
+					<ContextMenu name="ДСНомерТелефонаДляПоискаКонтекстноеМеню" id="99"/>
+					<ExtendedTooltip name="ДСНомерТелефонаДляПоискаРасширеннаяПодсказка" id="100"/>
+				</LabelField>
+				<LabelField name="ДСОсновныеСведения" id="101">
+					<DataPath>ДС.ОсновныеСведения</DataPath>
+					<ContextMenu name="ДСОсновныеСведенияКонтекстноеМеню" id="102"/>
+					<ExtendedTooltip name="ДСОсновныеСведенияРасширеннаяПодсказка" id="103"/>
+				</LabelField>
+				<LabelField name="ДСОтветственный" id="104">
+					<DataPath>ДС.Ответственный</DataPath>
+					<ContextMenu name="ДСОтветственныйКонтекстноеМеню" id="105"/>
+					<ExtendedTooltip name="ДСОтветственныйРасширеннаяПодсказка" id="106"/>
+				</LabelField>
+				<CheckBoxField name="ДСПокупатель" id="107">
+					<DataPath>ДС.Покупатель</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДСПокупательКонтекстноеМеню" id="108"/>
+					<ExtendedTooltip name="ДСПокупательРасширеннаяПодсказка" id="109"/>
+				</CheckBoxField>
+				<LabelField name="ДСПол" id="110">
+					<DataPath>ДС.Пол</DataPath>
+					<ContextMenu name="ДСПолКонтекстноеМеню" id="111"/>
+					<ExtendedTooltip name="ДСПолРасширеннаяПодсказка" id="112"/>
+				</LabelField>
+				<CheckBoxField name="ДСПоставщик" id="113">
+					<DataPath>ДС.Поставщик</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДСПоставщикКонтекстноеМеню" id="114"/>
+					<ExtendedTooltip name="ДСПоставщикРасширеннаяПодсказка" id="115"/>
+				</CheckBoxField>
+				<CheckBoxField name="ДСПрочиеОтношения" id="116">
+					<DataPath>ДС.ПрочиеОтношения</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДСПрочиеОтношенияКонтекстноеМеню" id="117"/>
+					<ExtendedTooltip name="ДСПрочиеОтношенияРасширеннаяПодсказка" id="118"/>
+				</CheckBoxField>
+				<CheckBoxField name="ДСРасчетыВУсловныхЕдиницахПоУмолчанию" id="119">
+					<DataPath>ДС.РасчетыВУсловныхЕдиницахПоУмолчанию</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДСРасчетыВУсловныхЕдиницахПоУмолчаниюКонтекстноеМеню" id="120"/>
+					<ExtendedTooltip name="ДСРасчетыВУсловныхЕдиницахПоУмолчаниюРасширеннаяПодсказка" id="121"/>
+				</CheckBoxField>
+				<LabelField name="ДСРегистрационныйНомер" id="122">
+					<DataPath>ДС.РегистрационныйНомер</DataPath>
+					<ContextMenu name="ДСРегистрационныйНомерКонтекстноеМеню" id="123"/>
+					<ExtendedTooltip name="ДСРегистрационныйНомерРасширеннаяПодсказка" id="124"/>
+				</LabelField>
+				<LabelField name="ДССвидетельствоДатаВыдачи" id="125">
+					<DataPath>ДС.СвидетельствоДатаВыдачи</DataPath>
+					<ContextMenu name="ДССвидетельствоДатаВыдачиКонтекстноеМеню" id="126"/>
+					<ExtendedTooltip name="ДССвидетельствоДатаВыдачиРасширеннаяПодсказка" id="127"/>
+				</LabelField>
+				<LabelField name="ДССвидетельствоСерияНомер" id="128">
+					<DataPath>ДС.СвидетельствоСерияНомер</DataPath>
+					<ContextMenu name="ДССвидетельствоСерияНомерКонтекстноеМеню" id="129"/>
+					<ExtendedTooltip name="ДССвидетельствоСерияНомерРасширеннаяПодсказка" id="130"/>
+				</LabelField>
+				<LabelField name="ДССпособЗачетаПредоплатыПоУмолчанию" id="131">
+					<DataPath>ДС.СпособЗачетаПредоплатыПоУмолчанию</DataPath>
+					<ContextMenu name="ДССпособЗачетаПредоплатыПоУмолчаниюКонтекстноеМеню" id="132"/>
+					<ExtendedTooltip name="ДССпособЗачетаПредоплатыПоУмолчаниюРасширеннаяПодсказка" id="133"/>
+				</LabelField>
+				<LabelField name="ДССпособРазнесенияОплатыПоУмолчанию" id="134">
+					<DataPath>ДС.СпособРазнесенияОплатыПоУмолчанию</DataPath>
+					<ContextMenu name="ДССпособРазнесенияОплатыПоУмолчаниюКонтекстноеМеню" id="135"/>
+					<ExtendedTooltip name="ДССпособРазнесенияОплатыПоУмолчаниюРасширеннаяПодсказка" id="136"/>
+				</LabelField>
+				<LabelField name="ДССтатьяДДСПоУмолчанию" id="137">
+					<DataPath>ДС.СтатьяДДСПоУмолчанию</DataPath>
+					<ContextMenu name="ДССтатьяДДСПоУмолчаниюКонтекстноеМеню" id="138"/>
+					<ExtendedTooltip name="ДССтатьяДДСПоУмолчаниюРасширеннаяПодсказка" id="139"/>
+				</LabelField>
+				<LabelField name="ДСКодПоОКПО" id="140">
+					<DataPath>ДС.КодПоОКПО</DataPath>
+					<ContextMenu name="ДСКодПоОКПОКонтекстноеМеню" id="141"/>
+					<ExtendedTooltip name="ДСКодПоОКПОРасширеннаяПодсказка" id="142"/>
+				</LabelField>
+				<LabelField name="ДССчетУчетаАвансовПокупателя" id="143">
+					<DataPath>ДС.СчетУчетаАвансовПокупателя</DataPath>
+					<ContextMenu name="ДССчетУчетаАвансовПокупателяКонтекстноеМеню" id="144"/>
+					<ExtendedTooltip name="ДССчетУчетаАвансовПокупателяРасширеннаяПодсказка" id="145"/>
+				</LabelField>
+				<LabelField name="ДССчетУчетаАвансовПоставщику" id="146">
+					<DataPath>ДС.СчетУчетаАвансовПоставщику</DataPath>
+					<ContextMenu name="ДССчетУчетаАвансовПоставщикуКонтекстноеМеню" id="147"/>
+					<ExtendedTooltip name="ДССчетУчетаАвансовПоставщикуРасширеннаяПодсказка" id="148"/>
+				</LabelField>
+				<LabelField name="ДССчетУчетаРасчетовСПокупателем" id="149">
+					<DataPath>ДС.СчетУчетаРасчетовСПокупателем</DataPath>
+					<ContextMenu name="ДССчетУчетаРасчетовСПокупателемКонтекстноеМеню" id="150"/>
+					<ExtendedTooltip name="ДССчетУчетаРасчетовСПокупателемРасширеннаяПодсказка" id="151"/>
+				</LabelField>
+				<LabelField name="ДССчетУчетаРасчетовСПоставщиком" id="152">
+					<DataPath>ДС.СчетУчетаРасчетовСПоставщиком</DataPath>
+					<ContextMenu name="ДССчетУчетаРасчетовСПоставщикомКонтекстноеМеню" id="153"/>
+					<ExtendedTooltip name="ДССчетУчетаРасчетовСПоставщикомРасширеннаяПодсказка" id="154"/>
+				</LabelField>
+				<LabelField name="ДСУдалитьАдресЭП" id="155">
+					<DataPath>ДС.УдалитьАдресЭП</DataPath>
+					<ContextMenu name="ДСУдалитьАдресЭПКонтекстноеМеню" id="156"/>
+					<ExtendedTooltip name="ДСУдалитьАдресЭПРасширеннаяПодсказка" id="157"/>
+				</LabelField>
+				<LabelField name="ДСУдалитьДоговорПоУмолчанию" id="158">
+					<DataPath>ДС.УдалитьДоговорПоУмолчанию</DataPath>
+					<ContextMenu name="ДСУдалитьДоговорПоУмолчаниюКонтекстноеМеню" id="159"/>
+					<ExtendedTooltip name="ДСУдалитьДоговорПоУмолчаниюРасширеннаяПодсказка" id="160"/>
+				</LabelField>
+				<LabelField name="ДСУдалитьНомерТелефона" id="161">
+					<DataPath>ДС.УдалитьНомерТелефона</DataPath>
+					<ContextMenu name="ДСУдалитьНомерТелефонаКонтекстноеМеню" id="162"/>
+					<ExtendedTooltip name="ДСУдалитьНомерТелефонаРасширеннаяПодсказка" id="163"/>
+				</LabelField>
+				<LabelField name="ДСФИО" id="164">
+					<DataPath>ДС.ФИО</DataPath>
+					<ContextMenu name="ДСФИОКонтекстноеМеню" id="165"/>
+					<ExtendedTooltip name="ДСФИОРасширеннаяПодсказка" id="166"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.ДинамическийСписок</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ДС" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ДС</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	NULL КАК РКЦ_Реакции,
+	СправочникКонтрагенты.Ссылка,
+	СправочникКонтрагенты.ПометкаУдаления,
+	СправочникКонтрагенты.Родитель,
+	СправочникКонтрагенты.ЭтоГруппа,
+	СправочникКонтрагенты.Код,
+	СправочникКонтрагенты.Наименование,
+	СправочникКонтрагенты.НаименованиеПолное,
+	СправочникКонтрагенты.БанковскийСчетПоУмолчанию,
+	СправочникКонтрагенты.ВалютаРасчетовПоУмолчанию,
+	СправочникКонтрагенты.ВестиРасчетыПоДоговорам,
+	СправочникКонтрагенты.ВестиРасчетыПоДокументам,
+	СправочникКонтрагенты.ВестиРасчетыПоЗаказам,
+	СправочникКонтрагенты.ВестиУчетОплатыПоСчетам,
+	СправочникКонтрагенты.ВидГосударственногоОргана,
+	СправочникКонтрагенты.ВидКонтрагента,
+	СправочникКонтрагенты.СтранаРегистрации,
+	СправочникКонтрагенты.ГруппаДоступа,
+	СправочникКонтрагенты.ДатаРождения,
+	СправочникКонтрагенты.ДатаСоздания,
+	СправочникКонтрагенты.ДокументУдостоверяющийЛичность,
+	СправочникКонтрагенты.АдресЭПДляПоиска,
+	СправочникКонтрагенты.ИННВведенКорректно,
+	СправочникКонтрагенты.ИсточникПривлеченияПокупателя,
+	СправочникКонтрагенты.КодГосударственногоОргана,
+	СправочникКонтрагенты.ГоловнойКонтрагент,
+	СправочникКонтрагенты.Комментарий,
+	СправочникКонтрагенты.КонтактноеЛицо,
+	СправочникКонтрагенты.КонтактноеЛицоПодписант,
+	СправочникКонтрагенты.ИНН,
+	СправочникКонтрагенты.КППВведенКорректно,
+	СправочникКонтрагенты.КПП,
+	СправочникКонтрагенты.Недействителен,
+	СправочникКонтрагенты.НомерТелефонаДляПоиска,
+	СправочникКонтрагенты.ОсновныеСведения,
+	СправочникКонтрагенты.Ответственный,
+	СправочникКонтрагенты.Покупатель,
+	СправочникКонтрагенты.Пол,
+	СправочникКонтрагенты.Поставщик,
+	СправочникКонтрагенты.ПрочиеОтношения,
+	СправочникКонтрагенты.РасчетыВУсловныхЕдиницахПоУмолчанию,
+	СправочникКонтрагенты.РегистрационныйНомер,
+	СправочникКонтрагенты.СвидетельствоДатаВыдачи,
+	СправочникКонтрагенты.СвидетельствоСерияНомер,
+	СправочникКонтрагенты.СпособЗачетаПредоплатыПоУмолчанию,
+	СправочникКонтрагенты.СпособРазнесенияОплатыПоУмолчанию,
+	СправочникКонтрагенты.СтатьяДДСПоУмолчанию,
+	СправочникКонтрагенты.КодПоОКПО,
+	СправочникКонтрагенты.СчетУчетаАвансовПокупателя,
+	СправочникКонтрагенты.СчетУчетаАвансовПоставщику,
+	СправочникКонтрагенты.СчетУчетаРасчетовСПокупателем,
+	СправочникКонтрагенты.СчетУчетаРасчетовСПоставщиком,
+	СправочникКонтрагенты.УдалитьАдресЭП,
+	СправочникКонтрагенты.УдалитьДоговорПоУмолчанию,
+	СправочникКонтрагенты.УдалитьНомерТелефона,
+	СправочникКонтрагенты.ФИО,
+	СправочникКонтрагенты.ДополнительныеРеквизиты,
+	СправочникКонтрагенты.КонтактнаяИнформация,
+	СправочникКонтрагенты.Теги,
+	СправочникКонтрагенты.ИсторияКПП,
+	СправочникКонтрагенты.ИсторияНаименований,
+	СправочникКонтрагенты.Предопределенный,
+	СправочникКонтрагенты.ИмяПредопределенныхДанных
+ИЗ
+	Справочник.Контрагенты КАК СправочникКонтрагенты</QueryText>
+				<MainTable>Catalog.Контрагенты</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+</Form>
