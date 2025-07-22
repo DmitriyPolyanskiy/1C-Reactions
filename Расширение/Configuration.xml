@@ -65,6 +65,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>РКЦ_Реакции</Subsystem>
 			<Role>РКЦ_ОсновнаяРоль</Role>
 			<CommonModule>РКЦ_ОбщегоНазначения</CommonModule>
 			<CommonModule>РКЦ_РеакцииПереопределяемый</CommonModule>

@@ -64,7 +64,7 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="c900bb7f-06f3-4a9f-996f-eaa2c9f2693d">
+			<Resource uuid="0d99c49f-c48e-4d10-85a7-91ab8403b71d">
 				<Properties>
 					<Name>Реакция</Name>
 					<Synonym>
@@ -102,7 +102,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
 				</Properties>
-			</Attribute>
+			</Resource>
 			<Dimension uuid="04facae5-3181-44d7-b0a3-6c9303a31662">
 				<Properties>
 					<Name>Объект</Name>
