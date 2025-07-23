@@ -69,10 +69,10 @@
 			<Role>РКЦ_ОсновнаяРоль</Role>
 			<CommonModule>РКЦ_ОбщегоНазначения</CommonModule>
 			<CommonModule>РКЦ_РеакцииПереопределяемый</CommonModule>
-			<DefinedType>РКЦ_ОбъектыСРеакциями</DefinedType>
-			<Catalog>Контрагенты</Catalog>
 			<Catalog>РКЦ_Реакции</Catalog>
 			<Catalog>Пользователи</Catalog>
+			<Catalog>ИдентификаторыОбъектовМетаданных</Catalog>
+			<Catalog>ИдентификаторыОбъектовРасширений</Catalog>
 			<InformationRegister>РКЦ_РеакцииОбъектов</InformationRegister>
 		</ChildObjects>
 	</Configuration>

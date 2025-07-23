@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="20c7a00d-827d-4947-aee1-8f2b26fe516d">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ИдентификаторыОбъектовРасширений" category="Object">
+				<xr:TypeId>8c48a0ae-914a-46d2-b7ee-0ea57c94e824</xr:TypeId>
+				<xr:ValueId>35b745f4-48b7-4ce4-8717-08038dc2dc46</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ИдентификаторыОбъектовРасширений" category="Ref">
+				<xr:TypeId>b02c2ea2-b7b8-482d-91cb-037eed91dc19</xr:TypeId>
+				<xr:ValueId>95e2fcc5-0ad6-4978-844e-a0a5e67a26ac</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ИдентификаторыОбъектовРасширений" category="Selection">
+				<xr:TypeId>f1e7b9ed-9e98-4e33-b036-bb9b14f0eec8</xr:TypeId>
+				<xr:ValueId>064ba87e-140a-4136-8e6b-95c905d8437f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ИдентификаторыОбъектовРасширений" category="List">
+				<xr:TypeId>d5d3fdff-e1c8-44c3-aafd-563f26d2cb12</xr:TypeId>
+				<xr:ValueId>a275c512-ab32-4bc0-bc36-bf81d7be3085</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ИдентификаторыОбъектовРасширений" category="Manager">
+				<xr:TypeId>1b805167-024e-416a-8122-35dfd839da40</xr:TypeId>
+				<xr:ValueId>a3d64bf9-7fa0-42e8-92b6-9b3edcee3ce3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИдентификаторыОбъектовРасширений</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>aa509aa3-dd45-41f3-82c7-59662c2e2c47</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="4f1b7f9d-498c-42eb-8bf7-8e86bc307354">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Имя</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>381b49ba-793a-4418-9fd4-598844fb72a6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>255</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cea793f1-fda7-4715-99d5-96297f7b8da3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПолноеИмя</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>593509da-d33c-49ff-a62c-a28cbc4651c1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>430</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d8ab9e74-5af3-4361-a322-5307e9464797">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗначениеПустойСсылки</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>93bf1dcf-670d-4c8b-bdbf-e43c2edf8056</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>
