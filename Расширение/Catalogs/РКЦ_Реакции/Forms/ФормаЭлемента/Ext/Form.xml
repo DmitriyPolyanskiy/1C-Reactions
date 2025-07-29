@@ -32,16 +32,17 @@
 			<ChildItems>
 				<InputField name="Наименование" id="1">
 					<DataPath>Объект.Description</DataPath>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Будет отображаться на команде в подменю "Отреагировать"</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
-				</InputField>
-				<InputField name="Код" id="20">
-					<DataPath>Объект.Code</DataPath>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="КодКонтекстноеМеню" id="21"/>
-					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="22"/>
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
@@ -99,6 +100,39 @@
 						</Button>
 					</ChildItems>
 				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаСлужебная" id="23">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Служебные реквизиты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа служебная</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Behavior>Collapsible</Behavior>
+			<Collapsed>true</Collapsed>
+			<ControlRepresentation>Picture</ControlRepresentation>
+			<ExtendedTooltip name="ГруппаСлужебнаяРасширеннаяПодсказка" id="24"/>
+			<ChildItems>
+				<InputField name="Код" id="20">
+					<DataPath>Объект.Code</DataPath>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Служебное, не должно содержать пробелов или начинаться с цифры</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КодКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="22"/>
+				</InputField>
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>
