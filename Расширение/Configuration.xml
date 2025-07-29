@@ -66,9 +66,15 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>РКЦ_Реакции</Subsystem>
+			<CommonPicture>РКЦ_Реакция</CommonPicture>
 			<Role>РКЦ_ОсновнаяРоль</Role>
-			<CommonModule>РКЦ_ОбщегоНазначения</CommonModule>
+			<CommonModule>РКЦ_Реакции</CommonModule>
 			<CommonModule>РКЦ_РеакцииПереопределяемый</CommonModule>
+			<CommonModule>РКЦ_РеакцииКлиент</CommonModule>
+			<CommonModule>РКЦ_РеакцииВызовСервера</CommonModule>
+			<CommonModule>РКЦ_РеакцииПовтИсп</CommonModule>
+			<CommonModule>ПодключаемыеКомандыПереопределяемый</CommonModule>
+			<CommonModule>ОбщегоНазначенияПереопределяемый</CommonModule>
 			<Catalog>РКЦ_Реакции</Catalog>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>ИдентификаторыОбъектовМетаданных</Catalog>
