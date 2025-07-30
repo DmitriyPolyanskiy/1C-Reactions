@@ -66,7 +66,18 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>РКЦ_Реакции</Subsystem>
+			<StyleItem>ТекстВторостепеннойНадписи</StyleItem>
+			<StyleItem>ЦветТекстаПравойПанелиОтборов</StyleItem>
+			<StyleItem>ДосьеВторостепеннаяНадписьЦвет</StyleItem>
 			<CommonPicture>РКЦ_Реакция</CommonPicture>
+			<CommonPicture>Скрепка</CommonPicture>
+			<CommonPicture>Напоминание</CommonPicture>
+			<CommonPicture>ОтправитьЭлектронноеПисьмо</CommonPicture>
+			<CommonPicture>КОплате</CommonPicture>
+			<CommonPicture>КоллекцияСкрепка</CommonPicture>
+			<CommonPicture>КОтгрузке</CommonPicture>
+			<CommonPicture>СостояниеЗаказа</CommonPicture>
+			<CommonPicture>ЕстьРасхождения</CommonPicture>
 			<Role>РКЦ_ОсновнаяРоль</Role>
 			<CommonModule>РКЦ_Реакции</CommonModule>
 			<CommonModule>РКЦ_РеакцииПереопределяемый</CommonModule>
@@ -79,6 +90,7 @@
 			<Catalog>Пользователи</Catalog>
 			<Catalog>ИдентификаторыОбъектовМетаданных</Catalog>
 			<Catalog>ИдентификаторыОбъектовРасширений</Catalog>
+			<Document>ЗаказПокупателя</Document>
 			<InformationRegister>РКЦ_РеакцииОбъектов</InformationRegister>
 		</ChildObjects>
 	</Configuration>

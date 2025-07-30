@@ -18,6 +18,17 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РКЦ_Реакции</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РКЦ_РеакцииОбъектов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РКЦ_Реакции</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РКЦ_РеакцииПереопределяемый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РКЦ_РеакцииКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РКЦ_РеакцииВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РКЦ_РеакцииПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ПодключаемыеКомандыПереопределяемый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбщегоНазначенияПереопределяемый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.РКЦ_Реакция</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Пользователи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ИдентификаторыОбъектовМетаданных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ИдентификаторыОбъектовРасширений</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
