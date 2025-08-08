@@ -69,7 +69,9 @@
 			<StyleItem>ТекстВторостепеннойНадписи</StyleItem>
 			<StyleItem>ЦветТекстаПравойПанелиОтборов</StyleItem>
 			<StyleItem>ДосьеВторостепеннаяНадписьЦвет</StyleItem>
-			<CommonPicture>РКЦ_Реакция</CommonPicture>
+			<CommonPicture>РКЦ_ПодсистемаРеакции</CommonPicture>
+			<CommonPicture>РКЦ_ПалецВверх</CommonPicture>
+			<CommonPicture>РКЦ_ПалецВниз</CommonPicture>
 			<CommonPicture>Скрепка</CommonPicture>
 			<CommonPicture>Напоминание</CommonPicture>
 			<CommonPicture>ОтправитьЭлектронноеПисьмо</CommonPicture>
@@ -84,6 +86,7 @@
 			<CommonModule>РКЦ_РеакцииКлиент</CommonModule>
 			<CommonModule>РКЦ_РеакцииВызовСервера</CommonModule>
 			<CommonModule>РКЦ_РеакцииПовтИсп</CommonModule>
+			<CommonModule>РКЦ_РеакцииКлиентСервер</CommonModule>
 			<CommonModule>ПодключаемыеКомандыПереопределяемый</CommonModule>
 			<CommonModule>ОбщегоНазначенияПереопределяемый</CommonModule>
 			<Catalog>РКЦ_Реакции</Catalog>
