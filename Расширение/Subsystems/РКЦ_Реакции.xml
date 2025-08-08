@@ -14,7 +14,10 @@
 			<IncludeInCommandInterface>true</IncludeInCommandInterface>
 			<UseOneCommand>false</UseOneCommand>
 			<Explanation/>
-			<Picture/>
+			<Picture>
+				<xr:Ref>CommonPicture.РКЦ_ПодсистемаРеакции</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РКЦ_Реакции</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РКЦ_РеакцииВызовСервера</xr:Item>
@@ -29,6 +32,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ПодключаемыеКомандыПереопределяемый</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Пользователи</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ИдентификаторыОбъектовРасширений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РКЦ_РеакцииКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.РКЦ_ВсеРеакции</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

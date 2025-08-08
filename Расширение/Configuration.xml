@@ -70,16 +70,6 @@
 			<StyleItem>ЦветТекстаПравойПанелиОтборов</StyleItem>
 			<StyleItem>ДосьеВторостепеннаяНадписьЦвет</StyleItem>
 			<CommonPicture>РКЦ_ПодсистемаРеакции</CommonPicture>
-			<CommonPicture>РКЦ_ПалецВверх</CommonPicture>
-			<CommonPicture>РКЦ_ПалецВниз</CommonPicture>
-			<CommonPicture>Скрепка</CommonPicture>
-			<CommonPicture>Напоминание</CommonPicture>
-			<CommonPicture>ОтправитьЭлектронноеПисьмо</CommonPicture>
-			<CommonPicture>КОплате</CommonPicture>
-			<CommonPicture>КоллекцияСкрепка</CommonPicture>
-			<CommonPicture>КОтгрузке</CommonPicture>
-			<CommonPicture>СостояниеЗаказа</CommonPicture>
-			<CommonPicture>ЕстьРасхождения</CommonPicture>
 			<Role>РКЦ_ОсновнаяРоль</Role>
 			<CommonModule>РКЦ_Реакции</CommonModule>
 			<CommonModule>РКЦ_РеакцииПереопределяемый</CommonModule>
@@ -89,6 +79,7 @@
 			<CommonModule>РКЦ_РеакцииКлиентСервер</CommonModule>
 			<CommonModule>ПодключаемыеКомандыПереопределяемый</CommonModule>
 			<CommonModule>ОбщегоНазначенияПереопределяемый</CommonModule>
+			<CommonForm>РКЦ_ВсеРеакции</CommonForm>
 			<Catalog>РКЦ_Реакции</Catalog>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>ИдентификаторыОбъектовМетаданных</Catalog>

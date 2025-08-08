@@ -252,7 +252,7 @@
 								</v8:item>
 							</Title>
 							<Picture>
-								<xr:Ref>CommonPicture.Напоминание</xr:Ref>
+								<xr:Ref>0:a36b1db3-2172-467d-9002-c5f8c1916343</xr:Ref>
 								<xr:LoadTransparent>true</xr:LoadTransparent>
 							</Picture>
 							<Representation>Picture</Representation>
@@ -283,7 +283,7 @@
 								</v8:item>
 							</Title>
 							<Picture>
-								<xr:Ref>CommonPicture.ОтправитьЭлектронноеПисьмо</xr:Ref>
+								<xr:Ref>0:284a8302-7617-48ce-9fd2-05bf9e032a25</xr:Ref>
 								<xr:LoadTransparent>true</xr:LoadTransparent>
 							</Picture>
 							<Representation>Picture</Representation>
@@ -774,11 +774,11 @@
 								</v8:item>
 							</ToolTip>
 							<HeaderPicture>
-								<xr:Ref>CommonPicture.Скрепка</xr:Ref>
+								<xr:Ref>0:154e293e-547b-4be9-9096-20d37118767c</xr:Ref>
 								<xr:LoadTransparent>false</xr:LoadTransparent>
 							</HeaderPicture>
 							<ValuesPicture>
-								<xr:Ref>CommonPicture.КоллекцияСкрепка</xr:Ref>
+								<xr:Ref>0:7db32d7a-7413-4640-9b4b-78f554c560ff</xr:Ref>
 								<xr:LoadTransparent>false</xr:LoadTransparent>
 							</ValuesPicture>
 							<ContextMenu name="ЕстьФайлыКонтекстноеМеню" id="611"/>
@@ -799,14 +799,14 @@
 								</v8:item>
 							</ToolTip>
 							<HeaderPicture>
-								<xr:Ref>CommonPicture.КОтгрузке</xr:Ref>
+								<xr:Ref>0:41971102-b984-4466-9a5b-b06fdd4dade9</xr:Ref>
 								<xr:LoadTransparent>false</xr:LoadTransparent>
 							</HeaderPicture>
 							<Width>2</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<VerticalStretch>false</VerticalStretch>
 							<ValuesPicture>
-								<xr:Ref>CommonPicture.СостояниеЗаказа</xr:Ref>
+								<xr:Ref>0:c418de86-78f2-4fc9-81cd-69202b5e4c64</xr:Ref>
 								<xr:LoadTransparent>false</xr:LoadTransparent>
 							</ValuesPicture>
 							<FileDragMode>AsFile</FileDragMode>
@@ -828,14 +828,14 @@
 								</v8:item>
 							</ToolTip>
 							<HeaderPicture>
-								<xr:Ref>CommonPicture.КОплате</xr:Ref>
+								<xr:Ref>0:b45426f8-c220-4f69-9698-08542cf2b014</xr:Ref>
 								<xr:LoadTransparent>false</xr:LoadTransparent>
 							</HeaderPicture>
 							<Width>2</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<VerticalStretch>false</VerticalStretch>
 							<ValuesPicture>
-								<xr:Ref>CommonPicture.СостояниеЗаказа</xr:Ref>
+								<xr:Ref>0:c418de86-78f2-4fc9-81cd-69202b5e4c64</xr:Ref>
 								<xr:LoadTransparent>false</xr:LoadTransparent>
 							</ValuesPicture>
 							<FileDragMode>AsFile</FileDragMode>
@@ -857,14 +857,14 @@
 								</v8:item>
 							</ToolTip>
 							<HeaderPicture>
-								<xr:Ref>CommonPicture.ЕстьРасхождения</xr:Ref>
+								<xr:Ref>0:8acc39f5-a960-4b9d-a635-97c7813945ac</xr:Ref>
 								<xr:LoadTransparent>false</xr:LoadTransparent>
 							</HeaderPicture>
 							<Width>2</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<VerticalStretch>false</VerticalStretch>
 							<ValuesPicture>
-								<xr:Ref>CommonPicture.СостояниеЗаказа</xr:Ref>
+								<xr:Ref>0:c418de86-78f2-4fc9-81cd-69202b5e4c64</xr:Ref>
 								<xr:LoadTransparent>false</xr:LoadTransparent>
 							</ValuesPicture>
 							<ContextMenu name="НомерКартинкиСборкиКонтекстноеМеню" id="614"/>
@@ -1947,7 +1947,7 @@
 									</v8:item>
 								</Title>
 								<Picture>
-									<xr:Ref>CommonPicture.Напоминание</xr:Ref>
+									<xr:Ref>0:a36b1db3-2172-467d-9002-c5f8c1916343</xr:Ref>
 									<xr:LoadTransparent>true</xr:LoadTransparent>
 								</Picture>
 								<Representation>Picture</Representation>
@@ -1978,7 +1978,7 @@
 									</v8:item>
 								</Title>
 								<Picture>
-									<xr:Ref>CommonPicture.ОтправитьЭлектронноеПисьмо</xr:Ref>
+									<xr:Ref>0:284a8302-7617-48ce-9fd2-05bf9e032a25</xr:Ref>
 									<xr:LoadTransparent>true</xr:LoadTransparent>
 								</Picture>
 								<Representation>Picture</Representation>
@@ -2466,11 +2466,11 @@
 									</v8:item>
 								</ToolTip>
 								<HeaderPicture>
-									<xr:Ref>CommonPicture.Скрепка</xr:Ref>
+									<xr:Ref>0:154e293e-547b-4be9-9096-20d37118767c</xr:Ref>
 									<xr:LoadTransparent>false</xr:LoadTransparent>
 								</HeaderPicture>
 								<ValuesPicture>
-									<xr:Ref>CommonPicture.КоллекцияСкрепка</xr:Ref>
+									<xr:Ref>0:7db32d7a-7413-4640-9b4b-78f554c560ff</xr:Ref>
 									<xr:LoadTransparent>false</xr:LoadTransparent>
 								</ValuesPicture>
 								<ContextMenu name="ЕстьФайлыКонтекстноеМеню" id="611"/>
@@ -2491,14 +2491,14 @@
 									</v8:item>
 								</ToolTip>
 								<HeaderPicture>
-									<xr:Ref>CommonPicture.КОтгрузке</xr:Ref>
+									<xr:Ref>0:41971102-b984-4466-9a5b-b06fdd4dade9</xr:Ref>
 									<xr:LoadTransparent>false</xr:LoadTransparent>
 								</HeaderPicture>
 								<Width>2</Width>
 								<HorizontalStretch>false</HorizontalStretch>
 								<VerticalStretch>false</VerticalStretch>
 								<ValuesPicture>
-									<xr:Ref>CommonPicture.СостояниеЗаказа</xr:Ref>
+									<xr:Ref>0:c418de86-78f2-4fc9-81cd-69202b5e4c64</xr:Ref>
 									<xr:LoadTransparent>false</xr:LoadTransparent>
 								</ValuesPicture>
 								<FileDragMode>AsFile</FileDragMode>
@@ -2520,14 +2520,14 @@
 									</v8:item>
 								</ToolTip>
 								<HeaderPicture>
-									<xr:Ref>CommonPicture.КОплате</xr:Ref>
+									<xr:Ref>0:b45426f8-c220-4f69-9698-08542cf2b014</xr:Ref>
 									<xr:LoadTransparent>false</xr:LoadTransparent>
 								</HeaderPicture>
 								<Width>2</Width>
 								<HorizontalStretch>false</HorizontalStretch>
 								<VerticalStretch>false</VerticalStretch>
 								<ValuesPicture>
-									<xr:Ref>CommonPicture.СостояниеЗаказа</xr:Ref>
+									<xr:Ref>0:c418de86-78f2-4fc9-81cd-69202b5e4c64</xr:Ref>
 									<xr:LoadTransparent>false</xr:LoadTransparent>
 								</ValuesPicture>
 								<FileDragMode>AsFile</FileDragMode>
@@ -2549,14 +2549,14 @@
 									</v8:item>
 								</ToolTip>
 								<HeaderPicture>
-									<xr:Ref>CommonPicture.ЕстьРасхождения</xr:Ref>
+									<xr:Ref>0:8acc39f5-a960-4b9d-a635-97c7813945ac</xr:Ref>
 									<xr:LoadTransparent>false</xr:LoadTransparent>
 								</HeaderPicture>
 								<Width>2</Width>
 								<HorizontalStretch>false</HorizontalStretch>
 								<VerticalStretch>false</VerticalStretch>
 								<ValuesPicture>
-									<xr:Ref>CommonPicture.СостояниеЗаказа</xr:Ref>
+									<xr:Ref>0:c418de86-78f2-4fc9-81cd-69202b5e4c64</xr:Ref>
 									<xr:LoadTransparent>false</xr:LoadTransparent>
 								</ValuesPicture>
 								<ContextMenu name="НомерКартинкиСборкиКонтекстноеМеню" id="614"/>

@@ -67,6 +67,8 @@
 			<Language>Русский</Language>
 			<CommonPicture>НР1_КрасноеСердце</CommonPicture>
 			<CommonPicture>НР1_Череп</CommonPicture>
+			<CommonPicture>НР1_ПалецВверх</CommonPicture>
+			<CommonPicture>НР1_ПалецВниз</CommonPicture>
 			<Role>НР1_ОсновнаяРоль</Role>
 			<CommonModule>НР1_РеакцииКлиентСервер</CommonModule>
 		</ChildObjects>
