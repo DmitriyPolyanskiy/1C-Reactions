@@ -24,7 +24,7 @@
 		<Metadata name="CommonModule.ПодключаемыеКомандыПереопределяемый" id="de79b335-4bcc-4658-9a93-3a518c966768" configVersion="cc2ddd85f83724b256147ebd8b83ed1b0b7fa310"/>
 		<Metadata name="CommonModule.ПодключаемыеКомандыПереопределяемый.Module" id="de79b335-4bcc-4658-9a93-3a518c966768.0" configVersion="e69be21f29fd6ee85605bf6fad87bac82cdf62a2"/>
 		<Metadata name="CommonModule.РКЦ_Реакции" id="07f359f6-56ee-4f32-98d2-224543bd30f9" configVersion="2087e0ef8dab7ceed84b83815d602aec7b1afd32"/>
-		<Metadata name="CommonModule.РКЦ_Реакции.Module" id="07f359f6-56ee-4f32-98d2-224543bd30f9.0" configVersion="d7cd7d61aaede31ef56c0361d6593419fdfafb8f"/>
+		<Metadata name="CommonModule.РКЦ_Реакции.Module" id="07f359f6-56ee-4f32-98d2-224543bd30f9.0" configVersion="0d427ae77d32b4c7e29d1d83b51908ee060bc4ea"/>
 		<Metadata name="CommonModule.РКЦ_РеакцииВызовСервера" id="42090ec3-e401-4e5e-bf48-b94622e39f32" configVersion="239e6009f8319525532c1e4af7abd137c6b70fb8"/>
 		<Metadata name="CommonModule.РКЦ_РеакцииВызовСервера.Module" id="42090ec3-e401-4e5e-bf48-b94622e39f32.0" configVersion="b8d464b1b62ac399fa6fe6926868c3d730247cda"/>
 		<Metadata name="CommonModule.РКЦ_РеакцииКлиент" id="869e9dd2-1398-4e1b-af6e-30678e6b7b5b" configVersion="57078fef1ead03b961cda1150d465e1e235d38ab"/>
