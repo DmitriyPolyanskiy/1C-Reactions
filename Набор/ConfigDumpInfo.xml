@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="CommonModule.НР1_РеакцииКлиентСервер" id="93002289-4d2e-4ad5-9ffb-8f7f0016a2a4" configVersion="4b21b78ed8e0a8332064c489c14b000e2b54333c"/>
+		<Metadata name="CommonModule.НР1_РеакцииКлиентСервер.Module" id="93002289-4d2e-4ad5-9ffb-8f7f0016a2a4.0" configVersion="1d99bd6af79fcf79a99189add164e69ddff2478c"/>
+		<Metadata name="CommonPicture.НР1_КрасноеСердце" id="3876bfc4-3308-4f88-93dc-a6535c64c883" configVersion="a868a7293f50bcbaa58adc3f08ecc30f4704c7c4"/>
+		<Metadata name="CommonPicture.НР1_КрасноеСердце.Picture" id="3876bfc4-3308-4f88-93dc-a6535c64c883.0" configVersion="f199817db8dc7077457565e5b07480c4a432dff4"/>
+		<Metadata name="CommonPicture.НР1_Череп" id="b510266e-273b-4f4f-a3e0-f76f40c92c69" configVersion="f84155e505e51aedf7d0129289206c17668a5897"/>
+		<Metadata name="CommonPicture.НР1_Череп.Picture" id="b510266e-273b-4f4f-a3e0-f76f40c92c69.0" configVersion="7da12f62e5925b318785e6da44bfb938c186ed2b"/>
+		<Metadata name="Configuration.НаборРеакций1" id="bd3d4e96-49f1-4152-907f-dd431db8a0c0" configVersion="be243d309fca99af705efc3dc67fd7f1f74e3970"/>
+		<Metadata name="Language.Русский" id="bb20694d-4242-45c4-91ee-7957b0998c60" configVersion="7efae74938b002963d2acd7ea08ae04ffe40d6fd"/>
+		<Metadata name="Role.НР1_ОсновнаяРоль" id="53afd44b-201a-44c3-bee0-40a0257269e2" configVersion="8ff952fef100393a5274c04ce6ff65317ac204da"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
