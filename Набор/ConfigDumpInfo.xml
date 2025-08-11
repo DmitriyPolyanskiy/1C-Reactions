@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
-		<Metadata name="CommonModule.НР1_РеакцииКлиентСервер" id="93002289-4d2e-4ad5-9ffb-8f7f0016a2a4" configVersion="4b21b78ed8e0a8332064c489c14b000e2b54333c"/>
-		<Metadata name="CommonModule.НР1_РеакцииКлиентСервер.Module" id="93002289-4d2e-4ad5-9ffb-8f7f0016a2a4.0" configVersion="4897253421bc0e6b6ba6e758035507f940e03101"/>
-		<Metadata name="CommonModule.ОбщегоНазначенияПереопределяемый" id="8765f792-9147-42cd-89c0-d7b6bd4d36b5" configVersion="f46cb0b934cbb7b98edd5dff8792d66e5cfdf0df"/>
-		<Metadata name="CommonModule.ОбщегоНазначенияПереопределяемый.Module" id="8765f792-9147-42cd-89c0-d7b6bd4d36b5.0" configVersion="cb6a17998e3da0b5da72aa8644d9c14cb4a80b91"/>
+		<Metadata name="CommonModule.НР1_РеакцииСлужебный" id="93002289-4d2e-4ad5-9ffb-8f7f0016a2a4" configVersion="7f17669ff481b821669624d6d01ab5cf0341284a"/>
+		<Metadata name="CommonModule.НР1_РеакцииСлужебный.Module" id="93002289-4d2e-4ad5-9ffb-8f7f0016a2a4.0" configVersion="2c1098e17d17f4740d54277a3936d36372bceefb"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияПереопределяемый" id="8765f792-9147-42cd-89c0-d7b6bd4d36b5" configVersion="28766a932d0861f72a84b6ae031532a7a3feef7e"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияПереопределяемый.Module" id="8765f792-9147-42cd-89c0-d7b6bd4d36b5.0" configVersion="c7de693aaaf264bb2a178202bb050314e7c59699"/>
 		<Metadata name="CommonPicture.НР1_КрасноеСердце" id="3876bfc4-3308-4f88-93dc-a6535c64c883" configVersion="a868a7293f50bcbaa58adc3f08ecc30f4704c7c4"/>
 		<Metadata name="CommonPicture.НР1_КрасноеСердце.Picture" id="3876bfc4-3308-4f88-93dc-a6535c64c883.0" configVersion="f199817db8dc7077457565e5b07480c4a432dff4"/>
 		<Metadata name="CommonPicture.НР1_ПалецВверх" id="ab8605dc-f534-449d-bd43-492a36613eef" configVersion="3103eac326521971c0a9e5672085cbb3424a9373"/>
@@ -13,9 +13,9 @@
 		<Metadata name="CommonPicture.НР1_ПалецВниз.Picture" id="7e356c7c-423f-4b08-98ac-01280a2b2a8d.0" configVersion="30f13995d19cf2135099c6e7c488d43de919f970"/>
 		<Metadata name="CommonPicture.НР1_Череп" id="b510266e-273b-4f4f-a3e0-f76f40c92c69" configVersion="f84155e505e51aedf7d0129289206c17668a5897"/>
 		<Metadata name="CommonPicture.НР1_Череп.Picture" id="b510266e-273b-4f4f-a3e0-f76f40c92c69.0" configVersion="7da12f62e5925b318785e6da44bfb938c186ed2b"/>
-		<Metadata name="Configuration.НаборРеакций1" id="bd3d4e96-49f1-4152-907f-dd431db8a0c0" configVersion="f7de0bc216d724c6bef20f878a286c7e01e2ecc0"/>
-		<Metadata name="Configuration.НаборРеакций1.SessionModule" id="727b6ea2-7178-45b1-8c15-f1fbdd606b9d.7" configVersion="e01e7e1ed187f3a46417e198a0f8addb1d0aaad4"/>
+		<Metadata name="Configuration.НаборРеакций1" id="bd3d4e96-49f1-4152-907f-dd431db8a0c0" configVersion="8cbcfac7bdca3c8983ab6734c16e4543d777fc31"/>
+		<Metadata name="Configuration.НаборРеакций1.SessionModule" id="727b6ea2-7178-45b1-8c15-f1fbdd606b9d.7" configVersion="9c009db19fb88f532d543ad49edb3b737d22ba45"/>
 		<Metadata name="Language.Русский" id="bb20694d-4242-45c4-91ee-7957b0998c60" configVersion="7efae74938b002963d2acd7ea08ae04ffe40d6fd"/>
-		<Metadata name="Role.НР1_ОсновнаяРоль" id="53afd44b-201a-44c3-bee0-40a0257269e2" configVersion="8ff952fef100393a5274c04ce6ff65317ac204da"/>
+		<Metadata name="Role.НР1_ОсновнаяРоль" id="53afd44b-201a-44c3-bee0-40a0257269e2" configVersion="af9f9bd64c3bd80200acb62ab6f8a31404b32e46"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

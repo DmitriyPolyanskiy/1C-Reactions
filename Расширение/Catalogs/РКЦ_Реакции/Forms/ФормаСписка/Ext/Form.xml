@@ -22,7 +22,7 @@
 			<InitialTreeView>ExpandTopLevel</InitialTreeView>
 			<EnableStartDrag>true</EnableStartDrag>
 			<DataPath>Список</DataPath>
-			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
+			<RowPictureDataPath>Список.Картинка</RowPictureDataPath>
 			<AutoRefresh>false</AutoRefresh>
 			<AutoRefreshPeriod>60</AutoRefreshPeriod>
 			<Period>
@@ -77,23 +77,6 @@
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
 				</LabelField>
-				<LabelField name="Код" id="19">
-					<DataPath>Список.Code</DataPath>
-					<ContextMenu name="КодКонтекстноеМеню" id="20"/>
-					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="21"/>
-				</LabelField>
-				<InputField name="ПредставлениеВСписках" id="25">
-					<DataPath>Список.ПредставлениеВСписках</DataPath>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Вид в списках</v8:content>
-						</v8:item>
-					</Title>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ПредставлениеВСпискахКонтекстноеМеню" id="26"/>
-					<ExtendedTooltip name="ПредставлениеВСпискахРасширеннаяПодсказка" id="27"/>
-				</InputField>
 				<LabelField name="Ссылка" id="22">
 					<DataPath>Список.Ref</DataPath>
 					<UserVisible>
@@ -113,13 +96,11 @@
 			<MainAttribute>true</MainAttribute>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
-				<DynamicDataRead>true</DynamicDataRead>
+				<DynamicDataRead>false</DynamicDataRead>
 				<QueryText>ВЫБРАТЬ
 	СправочникРКЦ_Реакции.Ссылка,
-	СправочникРКЦ_Реакции.Код,
 	СправочникРКЦ_Реакции.Наименование,
-	СправочникРКЦ_Реакции.Картинка,
-	NULL КАК ПредставлениеВСписках
+	NULL КАК Картинка
 ИЗ
 	Справочник.РКЦ_Реакции КАК СправочникРКЦ_Реакции</QueryText>
 				<MainTable>Catalog.РКЦ_Реакции</MainTable>

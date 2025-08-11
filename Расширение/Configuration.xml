@@ -81,7 +81,7 @@
 			<CommonModule>РКЦ_РеакцииКлиент</CommonModule>
 			<CommonModule>РКЦ_РеакцииВызовСервера</CommonModule>
 			<CommonModule>РКЦ_РеакцииСлужебныйПовтИсп</CommonModule>
-			<CommonModule>РКЦ_РеакцииКлиентСервер</CommonModule>
+			<CommonModule>РКЦ_РеакцииСлужебный</CommonModule>
 			<CommonModule>ПодключаемыеКомандыПереопределяемый</CommonModule>
 			<CommonModule>ОбщегоНазначенияПереопределяемый</CommonModule>
 			<CommonCommand>РКЦ_НастройкиРеакций</CommonCommand>

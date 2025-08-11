@@ -79,12 +79,12 @@
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаРасположенияКомандыНастройкиРасширеннаяПодсказка" id="10"/>
 					<ChildItems>
-						<CheckBoxField name="РасполагатьКомандуТолькоВБыстрыхДействиях" id="14">
-							<DataPath>РасполагатьКомандуТолькоВБыстрыхДействиях</DataPath>
+						<CheckBoxField name="РасполагатьКомандуТолькоВоВсехДействиях" id="76">
+							<DataPath>РасполагатьКомандуТолькоВоВсехДействиях</DataPath>
 							<TitleLocation>Right</TitleLocation>
 							<CheckBoxType>Auto</CheckBoxType>
-							<ContextMenu name="РасполагатьКомандуТолькоВБыстрыхДействияхКонтекстноеМеню" id="15"/>
-							<ExtendedTooltip name="РасполагатьКомандуТолькоВБыстрыхДействияхРасширеннаяПодсказка" id="16"/>
+							<ContextMenu name="РасполагатьКомандуТолькоВоВсехДействияхКонтекстноеМеню" id="77"/>
+							<ExtendedTooltip name="РасполагатьКомандуТолькоВоВсехДействияхРасширеннаяПодсказка" id="78"/>
 						</CheckBoxField>
 						<InputField name="ПоложениеКоманды" id="11">
 							<DataPath>ПоложениеКоманды</DataPath>
@@ -239,11 +239,15 @@
 						<ContextMenu name="ИспользуемыеРеакцииУправлениеПоискомКонтекстноеМеню" id="28"/>
 						<ExtendedTooltip name="ИспользуемыеРеакцииУправлениеПоискомРасширеннаяПодсказка" id="29"/>
 					</SearchControlAddition>
+					<Events>
+						<Event name="Selection">ИспользуемыеРеакцииВыбор</Event>
+					</Events>
 					<ChildItems>
 						<InputField name="ИспользуемыеРеакцииПредставление" id="30">
 							<DataPath>ИспользуемыеРеакции.Presentation</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<TextEdit>false</TextEdit>
 							<ContextMenu name="ИспользуемыеРеакцииПредставлениеКонтекстноеМеню" id="31"/>
 							<ExtendedTooltip name="ИспользуемыеРеакцииПредставлениеРасширеннаяПодсказка" id="32"/>
 						</InputField>
@@ -321,11 +325,15 @@
 						<ContextMenu name="ВсеРеакцииУправлениеПоискомКонтекстноеМеню" id="46"/>
 						<ExtendedTooltip name="ВсеРеакцииУправлениеПоискомРасширеннаяПодсказка" id="47"/>
 					</SearchControlAddition>
+					<Events>
+						<Event name="Selection">ВсеРеакцииВыбор</Event>
+					</Events>
 					<ChildItems>
 						<InputField name="ВсеРеакцииПредставление" id="51">
 							<DataPath>ВсеРеакции.Представление</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<TextEdit>false</TextEdit>
 							<ContextMenu name="ВсеРеакцииПредставлениеКонтекстноеМеню" id="52"/>
 							<ExtendedTooltip name="ВсеРеакцииПредставлениеРасширеннаяПодсказка" id="53"/>
 						</InputField>
@@ -371,11 +379,11 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="РасполагатьКомандуТолькоВБыстрыхДействиях" id="4">
+		<Attribute name="РасполагатьКомандуТолькоВоВсехДействиях" id="4">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Располагать команду только в быстрых действиях</v8:content>
+					<v8:content>Располагать команду только во всех действиях</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -393,9 +401,9 @@
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
 				<v8:NumberQualifiers>
-					<v8:Digits>2</v8:Digits>
+					<v8:Digits>3</v8:Digits>
 					<v8:FractionDigits>0</v8:FractionDigits>
-					<v8:AllowedSign>Any</v8:AllowedSign>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
 				</v8:NumberQualifiers>
 			</Type>
 			<SavedData>true</SavedData>
