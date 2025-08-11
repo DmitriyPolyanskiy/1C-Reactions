@@ -80,7 +80,7 @@
 					<ExtendedTooltip name="ГруппаРасположенияКомандыНастройкиРасширеннаяПодсказка" id="10"/>
 					<ChildItems>
 						<CheckBoxField name="РасполагатьКомандуТолькоВоВсехДействиях" id="76">
-							<DataPath>РасполагатьКомандуТолькоВоВсехДействиях</DataPath>
+							<DataPath>ТолькоВоВсехДействиях</DataPath>
 							<TitleLocation>Right</TitleLocation>
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="РасполагатьКомандуТолькоВоВсехДействияхКонтекстноеМеню" id="77"/>
@@ -379,7 +379,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="РасполагатьКомандуТолькоВоВсехДействиях" id="4">
+		<Attribute name="ТолькоВоВсехДействиях" id="4">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
