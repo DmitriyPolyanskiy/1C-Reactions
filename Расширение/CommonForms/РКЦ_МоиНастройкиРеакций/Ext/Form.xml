@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Пользовательские настройки реакций</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаЗаписатьИЗакрыть" id="56">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.ЗаписатьИЗакрыть</CommandName>
+				<ExtendedTooltip name="ФормаЗаписатьИЗакрытьРасширеннаяПодсказка" id="57"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<CheckBoxField name="ПолучатьОповещения" id="3">
+			<DataPath>ПолучатьОповещения</DataPath>
+			<TitleLocation>Right</TitleLocation>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ПолучатьОповещенияКонтекстноеМеню" id="4"/>
+			<ExtendedTooltip name="ПолучатьОповещенияРасширеннаяПодсказка" id="5"/>
+		</CheckBoxField>
+		<CheckBoxField name="ИспользоватьРеакции" id="6">
+			<DataPath>ИспользоватьРеакции</DataPath>
+			<TitleLocation>Right</TitleLocation>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ИспользоватьРеакцииКонтекстноеМеню" id="7"/>
+			<ExtendedTooltip name="ИспользоватьРеакцииРасширеннаяПодсказка" id="8"/>
+			<Events>
+				<Event name="OnChange">ИспользоватьРеакцииПриИзменении</Event>
+			</Events>
+		</CheckBoxField>
+		<UsualGroup name="ГруппаРасположенияКоманды" id="62">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа расположения команды</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа расположения команды</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаРасположенияКомандыРасширеннаяПодсказка" id="63"/>
+			<ChildItems>
+				<LabelDecoration name="ДекорацияРасположенияКомандыОтступ" id="64">
+					<Width>3</Width>
+					<ContextMenu name="ДекорацияРасположенияКомандыОтступКонтекстноеМеню" id="65"/>
+					<ExtendedTooltip name="ДекорацияРасположенияКомандыОтступРасширеннаяПодсказка" id="66"/>
+				</LabelDecoration>
+				<UsualGroup name="ГруппаРасположенияКомандыНастройки" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа расположения команды настройки</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа расположения команды настройки</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаРасположенияКомандыНастройкиРасширеннаяПодсказка" id="10"/>
+					<ChildItems>
+						<CheckBoxField name="РасполагатьКомандуТолькоВБыстрыхДействиях" id="14">
+							<DataPath>РасполагатьКомандуТолькоВБыстрыхДействиях</DataPath>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="РасполагатьКомандуТолькоВБыстрыхДействияхКонтекстноеМеню" id="15"/>
+							<ExtendedTooltip name="РасполагатьКомандуТолькоВБыстрыхДействияхРасширеннаяПодсказка" id="16"/>
+						</CheckBoxField>
+						<InputField name="ПоложениеКоманды" id="11">
+							<DataPath>ПоложениеКоманды</DataPath>
+							<Width>17</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ListChoiceMode>true</ListChoiceMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ChoiceList>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Важное</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:decimal">1</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Обычное</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:decimal">50</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>См. также</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:decimal">100</Value>
+									</xr:Value>
+								</xr:Item>
+							</ChoiceList>
+							<ContextMenu name="ПоложениеКомандыКонтекстноеМеню" id="12"/>
+							<ExtendedTooltip name="ПоложениеКомандыРасширеннаяПодсказка" id="13"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаИспользуемыеРеакции" id="33">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Используемые реакции</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа используемые реакции</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<ExtendedTooltip name="ГруппаИспользуемыеРеакцииРасширеннаяПодсказка" id="34"/>
+			<ChildItems>
+				<Table name="ИспользуемыеРеакции" id="17">
+					<Representation>List</Representation>
+					<ChangeRowSet>false</ChangeRowSet>
+					<MaxWidth>25</MaxWidth>
+					<Header>false</Header>
+					<HorizontalLines>false</HorizontalLines>
+					<VerticalLines>false</VerticalLines>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<DataPath>ИспользуемыеРеакции</DataPath>
+					<RowPictureDataPath>ИспользуемыеРеакции.Picture</RowPictureDataPath>
+					<CommandSet>
+						<ExcludedCommand>Add</ExcludedCommand>
+						<ExcludedCommand>CancelSearch</ExcludedCommand>
+						<ExcludedCommand>Change</ExcludedCommand>
+						<ExcludedCommand>CheckAll</ExcludedCommand>
+						<ExcludedCommand>Copy</ExcludedCommand>
+						<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+						<ExcludedCommand>Delete</ExcludedCommand>
+						<ExcludedCommand>EndEdit</ExcludedCommand>
+						<ExcludedCommand>Find</ExcludedCommand>
+						<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+						<ExcludedCommand>Pickup</ExcludedCommand>
+						<ExcludedCommand>SearchEverywhere</ExcludedCommand>
+						<ExcludedCommand>SearchHistory</ExcludedCommand>
+						<ExcludedCommand>SelectAll</ExcludedCommand>
+						<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+						<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+						<ExcludedCommand>SortListAsc</ExcludedCommand>
+						<ExcludedCommand>SortListDesc</ExcludedCommand>
+						<ExcludedCommand>UncheckAll</ExcludedCommand>
+					</CommandSet>
+					<ContextMenu name="ИспользуемыеРеакцииКонтекстноеМеню" id="18"/>
+					<AutoCommandBar name="ИспользуемыеРеакцииКоманднаяПанель" id="19">
+						<ChildItems>
+							<ButtonGroup name="ИспользуемыеРеакцииГруппаПереместить" id="74">
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Используемые реакции группа переместить</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Representation>Compact</Representation>
+								<ExtendedTooltip name="ИспользуемыеРеакцииГруппаПереместитьРасширеннаяПодсказка" id="75"/>
+								<ChildItems>
+									<Button name="ИспользуемыеРеакцииПереместитьВверх" id="70">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Item.ИспользуемыеРеакции.StandardCommand.MoveUp</CommandName>
+										<ExtendedTooltip name="ИспользуемыеРеакцииПереместитьВверхРасширеннаяПодсказка" id="71"/>
+									</Button>
+									<Button name="ИспользуемыеРеакцииПереместитьВниз" id="72">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Item.ИспользуемыеРеакции.StandardCommand.MoveDown</CommandName>
+										<ExtendedTooltip name="ИспользуемыеРеакцииПереместитьВнизРасширеннаяПодсказка" id="73"/>
+									</Button>
+								</ChildItems>
+							</ButtonGroup>
+						</ChildItems>
+					</AutoCommandBar>
+					<ExtendedTooltip name="ИспользуемыеРеакцииРасширеннаяПодсказка" id="20"/>
+					<SearchStringAddition name="ИспользуемыеРеакцииСтрокаПоиска" id="21">
+						<AdditionSource>
+							<Item>ИспользуемыеРеакции</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ИспользуемыеРеакцииСтрокаПоискаКонтекстноеМеню" id="22"/>
+						<ExtendedTooltip name="ИспользуемыеРеакцииСтрокаПоискаРасширеннаяПодсказка" id="23"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ИспользуемыеРеакцииСостояниеПросмотра" id="24">
+						<AdditionSource>
+							<Item>ИспользуемыеРеакции</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ИспользуемыеРеакцииСостояниеПросмотраКонтекстноеМеню" id="25"/>
+						<ExtendedTooltip name="ИспользуемыеРеакцииСостояниеПросмотраРасширеннаяПодсказка" id="26"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ИспользуемыеРеакцииУправлениеПоиском" id="27">
+						<AdditionSource>
+							<Item>ИспользуемыеРеакции</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ИспользуемыеРеакцииУправлениеПоискомКонтекстноеМеню" id="28"/>
+						<ExtendedTooltip name="ИспользуемыеРеакцииУправлениеПоискомРасширеннаяПодсказка" id="29"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<InputField name="ИспользуемыеРеакцииПредставление" id="30">
+							<DataPath>ИспользуемыеРеакции.Presentation</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ИспользуемыеРеакцииПредставлениеКонтекстноеМеню" id="31"/>
+							<ExtendedTooltip name="ИспользуемыеРеакцииПредставлениеРасширеннаяПодсказка" id="32"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+				<UsualGroup name="ГруппаКомандыДобавленияУдаления" id="54">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа команды добавления удаления</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа команды добавления удаления</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаКомандыДобавленияУдаленияРасширеннаяПодсказка" id="55"/>
+					<ChildItems>
+						<LabelDecoration name="ДекорацияКомандыДобавленияУдаленияОтступ" id="67">
+							<Height>4</Height>
+							<ContextMenu name="ДекорацияКомандыДобавленияУдаленияОтступКонтекстноеМеню" id="68"/>
+							<ExtendedTooltip name="ДекорацияКомандыДобавленияУдаленияОтступРасширеннаяПодсказка" id="69"/>
+						</LabelDecoration>
+						<Button name="ДобавитьИспользуемуюРеакцию" id="58">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ДобавитьИспользуемуюРеакцию</CommandName>
+							<ExtendedTooltip name="ДобавитьИспользуемуюРеакциюРасширеннаяПодсказка" id="59"/>
+						</Button>
+						<Button name="УдалитьИспользуемуюРеакцию" id="60">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.УдалитьИспользуемуюРеакцию</CommandName>
+							<ExtendedTooltip name="УдалитьИспользуемуюРеакциюРасширеннаяПодсказка" id="61"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<Table name="ВсеРеакции" id="35">
+					<Representation>Tree</Representation>
+					<ChangeRowSet>false</ChangeRowSet>
+					<ChangeRowOrder>false</ChangeRowOrder>
+					<Header>false</Header>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>ВсеРеакции</DataPath>
+					<RowPictureDataPath>ВсеРеакции.Картинка</RowPictureDataPath>
+					<ContextMenu name="ВсеРеакцииКонтекстноеМеню" id="36"/>
+					<AutoCommandBar name="ВсеРеакцииКоманднаяПанель" id="37"/>
+					<ExtendedTooltip name="ВсеРеакцииРасширеннаяПодсказка" id="38"/>
+					<SearchStringAddition name="ВсеРеакцииСтрокаПоиска" id="39">
+						<AdditionSource>
+							<Item>ВсеРеакции</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ВсеРеакцииСтрокаПоискаКонтекстноеМеню" id="40"/>
+						<ExtendedTooltip name="ВсеРеакцииСтрокаПоискаРасширеннаяПодсказка" id="41"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ВсеРеакцииСостояниеПросмотра" id="42">
+						<AdditionSource>
+							<Item>ВсеРеакции</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ВсеРеакцииСостояниеПросмотраКонтекстноеМеню" id="43"/>
+						<ExtendedTooltip name="ВсеРеакцииСостояниеПросмотраРасширеннаяПодсказка" id="44"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ВсеРеакцииУправлениеПоиском" id="45">
+						<AdditionSource>
+							<Item>ВсеРеакции</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ВсеРеакцииУправлениеПоискомКонтекстноеМеню" id="46"/>
+						<ExtendedTooltip name="ВсеРеакцииУправлениеПоискомРасширеннаяПодсказка" id="47"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<InputField name="ВсеРеакцииПредставление" id="51">
+							<DataPath>ВсеРеакции.Представление</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ВсеРеакцииПредставлениеКонтекстноеМеню" id="52"/>
+							<ExtendedTooltip name="ВсеРеакцииПредставлениеРасширеннаяПодсказка" id="53"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ПолучатьОповещения" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получать оповещения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ИспользоватьРеакции" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Использовать реакции</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ИспользуемыеРеакции" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Используемые реакции</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="РасполагатьКомандуТолькоВБыстрыхДействиях" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Располагать команду только в быстрых действиях</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ПоложениеКоманды" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Положение команды</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>2</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ВсеРеакции" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Все реакции</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTree</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Значение" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Значение</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:Type>cfg:CatalogRef.РКЦ_Реакции</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Представление" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Представление</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Картинка" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Картинка</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>v8ui:Picture</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗаписатьИЗакрыть" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать и закрыть</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать и закрыть</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаписатьИЗакрыть</Action>
+			<ModifiesSavedData>true</ModifiesSavedData>
+		</Command>
+		<Command name="ДобавитьИспользуемуюРеакцию" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить используемую реакцию</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить используемую реакцию</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.GoBack</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ДобавитьИспользуемыеРеакции</Action>
+			<Representation>Picture</Representation>
+			<ModifiesSavedData>true</ModifiesSavedData>
+		</Command>
+		<Command name="УдалитьИспользуемуюРеакцию" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить используемую реакцию</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить используемую реакцию</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.GoForward</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>УдалитьИспользуемуюРеакцию</Action>
+			<Representation>Picture</Representation>
+			<ModifiesSavedData>true</ModifiesSavedData>
+		</Command>
+	</Commands>
+</Form>

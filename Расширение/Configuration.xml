@@ -30,6 +30,10 @@
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
 				<xr:ObjectId>00ceb87e-e279-4ee8-99c4-c4ac9810e3b4</xr:ObjectId>
 			</xr:ContainedObject>
+			<xr:PropertyState>
+				<xr:Property>SessionModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
 		</InternalInfo>
 		<Properties>
 			<ObjectBelonging>Adopted</ObjectBelonging>
@@ -70,16 +74,19 @@
 			<StyleItem>ЦветТекстаПравойПанелиОтборов</StyleItem>
 			<StyleItem>ДосьеВторостепеннаяНадписьЦвет</StyleItem>
 			<CommonPicture>РКЦ_ПодсистемаРеакции</CommonPicture>
+			<SessionParameter>РКЦ_ПодключенныеНаборыРеакций</SessionParameter>
 			<Role>РКЦ_ОсновнаяРоль</Role>
 			<CommonModule>РКЦ_Реакции</CommonModule>
 			<CommonModule>РКЦ_РеакцииПереопределяемый</CommonModule>
 			<CommonModule>РКЦ_РеакцииКлиент</CommonModule>
 			<CommonModule>РКЦ_РеакцииВызовСервера</CommonModule>
-			<CommonModule>РКЦ_РеакцииПовтИсп</CommonModule>
+			<CommonModule>РКЦ_РеакцииСлужебныйПовтИсп</CommonModule>
 			<CommonModule>РКЦ_РеакцииКлиентСервер</CommonModule>
 			<CommonModule>ПодключаемыеКомандыПереопределяемый</CommonModule>
 			<CommonModule>ОбщегоНазначенияПереопределяемый</CommonModule>
+			<CommonCommand>РКЦ_НастройкиРеакций</CommonCommand>
 			<CommonForm>РКЦ_ВсеРеакции</CommonForm>
+			<CommonForm>РКЦ_МоиНастройкиРеакций</CommonForm>
 			<Catalog>РКЦ_Реакции</Catalog>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>ИдентификаторыОбъектовМетаданных</Catalog>

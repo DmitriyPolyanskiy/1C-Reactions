@@ -30,6 +30,10 @@
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
 				<xr:ObjectId>4de2ba81-52dd-45dd-8d47-ca366547f39b</xr:ObjectId>
 			</xr:ContainedObject>
+			<xr:PropertyState>
+				<xr:Property>SessionModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
 		</InternalInfo>
 		<Properties>
 			<ObjectBelonging>Adopted</ObjectBelonging>
@@ -71,6 +75,7 @@
 			<CommonPicture>НР1_ПалецВниз</CommonPicture>
 			<Role>НР1_ОсновнаяРоль</Role>
 			<CommonModule>НР1_РеакцииКлиентСервер</CommonModule>
+			<CommonModule>ОбщегоНазначенияПереопределяемый</CommonModule>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

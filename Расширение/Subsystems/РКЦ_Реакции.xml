@@ -28,12 +28,14 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбщегоНазначенияПереопределяемый</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РКЦ_РеакцииПереопределяемый</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РКЦ_РеакцииКлиент</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РКЦ_РеакцииПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РКЦ_РеакцииСлужебныйПовтИсп</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ПодключаемыеКомандыПереопределяемый</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Пользователи</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ИдентификаторыОбъектовРасширений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РКЦ_РеакцииКлиентСервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.РКЦ_ВсеРеакции</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.РКЦ_НастройкиРеакций</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.РКЦ_МоиНастройкиРеакций</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
