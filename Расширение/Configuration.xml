@@ -70,6 +70,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>РКЦ_Реакции</Subsystem>
+			<Subsystem>Настройки</Subsystem>
 			<StyleItem>ТекстВторостепеннойНадписи</StyleItem>
 			<StyleItem>ЦветТекстаПравойПанелиОтборов</StyleItem>
 			<StyleItem>ДосьеВторостепеннаяНадписьЦвет</StyleItem>
@@ -87,6 +88,7 @@
 			<CommonCommand>РКЦ_НастройкиРеакций</CommonCommand>
 			<CommonForm>РКЦ_ВсеРеакции</CommonForm>
 			<CommonForm>РКЦ_МоиНастройкиРеакций</CommonForm>
+			<CommonForm>РКЦ_НастройкиРеакций</CommonForm>
 			<Catalog>РКЦ_Реакции</Catalog>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>ИдентификаторыОбъектовМетаданных</Catalog>

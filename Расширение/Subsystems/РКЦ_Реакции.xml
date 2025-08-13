@@ -12,7 +12,7 @@
 			<Comment/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<IncludeInCommandInterface>false</IncludeInCommandInterface>
-			<UseOneCommand>true</UseOneCommand>
+			<UseOneCommand>false</UseOneCommand>
 			<Explanation/>
 			<Picture>
 				<xr:Ref>CommonPicture.РКЦ_ПодсистемаРеакции</xr:Ref>
