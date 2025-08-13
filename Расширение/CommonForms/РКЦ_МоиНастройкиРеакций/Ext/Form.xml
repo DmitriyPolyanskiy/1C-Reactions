@@ -3,7 +3,7 @@
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
-			<v8:content>Пользовательские настройки реакций</v8:content>
+			<v8:content>Персональные настройки реакций</v8:content>
 		</v8:item>
 	</Title>
 	<AutoTitle>false</AutoTitle>
@@ -18,6 +18,7 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
+		<Event name="BeforeClose">ПередЗакрытием</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
@@ -245,9 +246,9 @@
 					<ChildItems>
 						<InputField name="ИспользуемыеРеакцииПредставление" id="30">
 							<DataPath>ИспользуемыеРеакции.Presentation</DataPath>
+							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-							<TextEdit>false</TextEdit>
 							<ContextMenu name="ИспользуемыеРеакцииПредставлениеКонтекстноеМеню" id="31"/>
 							<ExtendedTooltip name="ИспользуемыеРеакцииПредставлениеРасширеннаяПодсказка" id="32"/>
 						</InputField>
@@ -331,9 +332,9 @@
 					<ChildItems>
 						<InputField name="ВсеРеакцииПредставление" id="51">
 							<DataPath>ВсеРеакции.Представление</DataPath>
+							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-							<TextEdit>false</TextEdit>
 							<ContextMenu name="ВсеРеакцииПредставлениеКонтекстноеМеню" id="52"/>
 							<ExtendedTooltip name="ВсеРеакцииПредставлениеРасширеннаяПодсказка" id="53"/>
 						</InputField>

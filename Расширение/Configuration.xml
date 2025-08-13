@@ -91,6 +91,7 @@
 			<Catalog>Пользователи</Catalog>
 			<Catalog>ИдентификаторыОбъектовМетаданных</Catalog>
 			<Catalog>ИдентификаторыОбъектовРасширений</Catalog>
+			<Catalog>ВерсииРасширений</Catalog>
 			<Document>ЗаказПокупателя</Document>
 			<InformationRegister>РКЦ_РеакцииОбъектов</InformationRegister>
 		</ChildObjects>

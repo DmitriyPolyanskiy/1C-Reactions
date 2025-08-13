@@ -66,6 +66,7 @@
 			<ChildItems>
 				<InputField name="Представление" id="19">
 					<DataPath>ВсеРеакции.Представление</DataPath>
+					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ПредставлениеКонтекстноеМеню" id="20"/>

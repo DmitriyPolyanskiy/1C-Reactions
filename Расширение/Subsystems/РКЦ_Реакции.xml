@@ -11,8 +11,8 @@
 			</Synonym>
 			<Comment/>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
-			<IncludeInCommandInterface>true</IncludeInCommandInterface>
-			<UseOneCommand>false</UseOneCommand>
+			<IncludeInCommandInterface>false</IncludeInCommandInterface>
+			<UseOneCommand>true</UseOneCommand>
 			<Explanation/>
 			<Picture>
 				<xr:Ref>CommonPicture.РКЦ_ПодсистемаРеакции</xr:Ref>
@@ -22,20 +22,17 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РКЦ_Реакции</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РКЦ_РеакцииВызовСервера</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РКЦ_РеакцииОбъектов</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ИдентификаторыОбъектовМетаданных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РКЦ_Реакции</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.РКЦ_ПодсистемаРеакции</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбщегоНазначенияПереопределяемый</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РКЦ_РеакцииПереопределяемый</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РКЦ_РеакцииКлиент</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РКЦ_РеакцииСлужебныйПовтИсп</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ПодключаемыеКомандыПереопределяемый</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Пользователи</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ИдентификаторыОбъектовРасширений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РКЦ_РеакцииСлужебный</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.РКЦ_ВсеРеакции</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.РКЦ_НастройкиРеакций</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.РКЦ_МоиНастройкиРеакций</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.РКЦ_ПодключенныеНаборыРеакций</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.РКЦ_ОсновнаяРоль</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
